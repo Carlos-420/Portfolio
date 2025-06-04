@@ -22,10 +22,10 @@ function App() {
             </div>
             <p className="about-me">
               <br></br>
-              Competitive and passionated developer who loves to sample all his ideas to code going from solution for all kind of problems to complex applications finding the way applicate them based on the knowledge I have.
+              Competitive and passionate developer who loves to translate all his ideas to code going from solutions for all kind of problems to complex applications and develop them based on the knowledge I have.
               <br></br>
               <br></br>
-              Learning new skills and Tecnologies has always been one of my hobbies dedicating myself to it at my free times.
+              Learning new skills and tecnologies has always been one of my hobbies dedicating myself to it at my free times.
             </p>
           </div>
         </div>
