@@ -4,20 +4,20 @@ import Npm from './img/npm.png';
 import Visual from './img/visual.png';
 import GitIcon from './img/Git-Icon-1788C.png';
 import Java from './img/java.png';
-import Php from './img/php.webp';
 import Nodejs from './img/nodejs.png';
 import Tux from './img/Tux.png';
 import AwsEc2 from './img/aws-ec2.png';
 import RDS from './img/RDS.svg';
 import Mongo from './img/mongo.png';
 import Postgres from './img/postgres.png';
-import Mysql from './img/mysql.png';
 import Figma from './img/Figma-logo.svg';
-import ReactLogo from './img/React.webp';
 import Js from './img/js.png';
 import Css3 from './img/css3.png';
 import Html5 from './img/html5.webp';
-import Firebase from './img/Firebase.png'
+import Mysql from './img/mysql.png';
+import Php from './img/php.webp';
+import Firebase from './img/Firebase.png';
+import ReactLogo from './img/React.webp';
 import './Tecnologies.css'
 import './App.css'
 

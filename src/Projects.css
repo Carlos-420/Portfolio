@@ -105,7 +105,7 @@
     font-size: 15px;
     border-radius: 12px;
     text-align: center;
-    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .visit:hover {

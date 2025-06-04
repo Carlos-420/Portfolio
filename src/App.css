@@ -6,6 +6,11 @@ background: #051073;
 background: linear-gradient(190deg, rgba(5, 16, 115, 1) 33%, rgba(5, 5, 74, 1) 58%, rgba(0, 0, 0, 1) 100%);
 }
 
+@font-face {
+  font-family: 'Alfa Slab One';
+  src: url('fonts/AlfaSlabOne-Regular.ttf') format('truetype');
+}
+
 .welcome{
   display: flex;
   margin-top: 90px;
@@ -35,8 +40,10 @@ h1 {
   color:  white;
   font-style: normal;
   margin-bottom: -10px;
-  border-bottom: 1px solid #5fffd6;
+  padding: 5px;
+  border-bottom: 4px solid #5fffd6;
 }
+
 
 .cv-social{
   display: flex;
@@ -44,6 +51,13 @@ h1 {
   justify-content: center;
   flex-direction: row;
   gap: 20px;
+}
+
+.downLink{
+  text-decoration: none;
+}
+.downLink:visited{
+  text-decoration: none;
 }
 
 .open-to-work{
@@ -134,7 +148,7 @@ h3{
   }
 }
 
-.welcome-content img{
+.welcome-content .img img{
   width: 340px; 
   height: 340px;
   border-radius: 50%;
@@ -144,7 +158,7 @@ h3{
   transition: box-shadow 1s ease, transform 0.3s ease, width 0.3s ease, height 0.3s ease;
 }
 
-.welcome-content img:hover{
+.welcome-content .img img:hover{
   width: 360px; 
   height: 360px;
   box-shadow: 0 0 20px 3px #8f3e1ea6;

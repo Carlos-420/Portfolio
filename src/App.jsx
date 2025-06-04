@@ -13,11 +13,11 @@ function App() {
             <img src={yoxd}></img>
           </div>
           <div className='Bio'>
-            <h1>HI! I'm Carlos Milián</h1>
+            <h1>HI! I'm Carlos Milián 👋</h1>
             <h2>Full-Stack developer</h2>
             <h3>Fourth-year college student</h3>
             <div className='cv-social'>
-              <button className='downcv'>Download CV</button>
+              <a href='./Carlos_Milian_CV.pdf' className='downLink'><button className='downcv'>Download CV</button></a>
               <span className='open-to-work'>Open To Work</span>
             </div>
             <p className="about-me">

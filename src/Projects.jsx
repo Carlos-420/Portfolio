@@ -10,7 +10,11 @@ import Web2 from './img/web2.png';
 import Web3 from './img/web3.png';
 import Web4 from './img/web4.png';
 import Github from './img/Github.png';
-
+import Css3 from './img/css3.png';
+import Html5 from './img/html5.webp';
+import Mysql from './img/mysql.png';
+import Php from './img/php.webp';
+import ReactLogo from './img/React.webp';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { Autoplay } from 'swiper/modules';
@@ -45,13 +49,13 @@ function Projects() {
                   <SwiperSlide><img src={Jj4}/></SwiperSlide>
                 </Swiper>
                 <h3>Sitio Web SOLUCIONES J&J</h3>
-                <p style={{color: 'rgb(175, 175, 175)', fontSize: '20px', marginTop: '-15px'}}>An e-commerce for a importer business of industrial equipment.</p>
+                <p style={{color: 'rgb(175, 175, 175)', fontSize: '20px', marginTop: '-15px'}}>An e-commerce for a importer business of industrial equipment. </p>
                 <br></br>
                 <div style={{marginTop: '-15px'}}>
-                  <img src='https://cdn.iconscout.com/icon/free/png-256/free-html-5-logo-icon-download-in-svg-png-gif-file-formats--programming-langugae-language-pack-logos-icons-1175208.png' style={{width: '35px', height: '35px', margin: '5px'}}/>
-                  <img src='https://icons.veryicon.com/png/o/application/skills-section/css3-5.png' style={{width: '35px', height: '35px', margin: '5px'}}/>
-                  <img src='https://cdn.iconscout.com/icon/free/png-256/free-php-28-226043.png?f=webp&w=256' style={{width: '35px', height: '35px', margin: '5px'}}/>
-
+                  <img src={Html5} style={{width: '35px', height: '35px', margin: '5px'}}/>
+                  <img src={Css3} style={{width: '35px', height: '35px', margin: '5px'}}/>
+                  <img src={Php} style={{width: '35px', height: '35px', margin: '5px'}}/>
+                  <img src={Mysql} style={{width: '45px', height: '35px', margin: '5px'}}/>
                 </div>
                 <br></br>
                 <a href="https://jjsolucionesgt.com/" className="visit" style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>VISIT &rarr;</a>
@@ -68,10 +72,10 @@ function Projects() {
                   <SwiperSlide><img src={Web4}/></SwiperSlide>
                 </Swiper>
                 <h3>Big Social Network</h3>
-                <p style={{color: 'rgb(175, 175, 175)', fontSize: '20px', marginTop: '-15px', fontFamily: ''}}>A Twitter based social network made by myself. Project still on developing.</p>
+                <p style={{color: 'rgb(175, 175, 175)', fontSize: '20px', marginTop: '-15px', fontFamily: ''}}>A social network in progress that allows user to share posts with tags related, Like or dislike posts and edit their profile.</p>
                 <br></br>
                 <div style={{marginTop: '-15px'}}>
-                  <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" style={{width: '35px', height: '35px', margin: '5px'}}/>
+                  <img src={ReactLogo} style={{width: '35px', height: '35px', margin: '5px'}}/>
                   <img src={Firebase} style={{width: '35px', height: '35px', margin: '5px'}}/>
                 </div>
                 <br></br>
