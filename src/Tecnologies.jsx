@@ -26,7 +26,7 @@ function Tecnologies() {
 
   return (
     <>
-    <div className="tecnologies-div" id="skillset">        
+    <div className="tecnologies-div" id="skillset" data-aos="fade-down">        
         <h1>Skillset</h1>
         <div class='card-grid'>
             <div class="card-grid1">
@@ -59,7 +59,7 @@ function Tecnologies() {
                     </div>
                 </div>
             </div>
-            <div className='card-grid1'>
+            <div className='card-grid1' >
                 <div className='card-box'>
                     <div className="prueba card2" style={{ width: '400px', height: '120px', padding: '22px' }}></div>
                     <div className="card" style={{ width: '400px', height: '120px' }}>

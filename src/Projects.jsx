@@ -28,7 +28,7 @@ function Projects() {
   
     return (
       <>
-        <div className='projects-div' id="projects">
+        <div className='projects-div' id="projects" data-aos="fade-up">
           <h1>Projects</h1>
           <div className="project-grid">
             <div className='project-box'>

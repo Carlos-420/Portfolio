@@ -1,6 +1,8 @@
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden !important;
 }
+
 body{
 background: #051073;
 background: linear-gradient(190deg, rgba(5, 16, 115, 1) 33%, rgba(5, 5, 74, 1) 58%, rgba(0, 0, 0, 1) 100%);

@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="logo">
-        <img src={Yo2} alt="Logo" style={{width: '80px', height: '80px', borderRadius: '50%'}}/>
+        <img src={Yo2} alt="Logo" style={{width: '80px', height: '80px', borderRadius: '50%'}} data-aos="fade-right"/>
       </div>
       <nav className="nav-links">
         <a href="#about">About</a>

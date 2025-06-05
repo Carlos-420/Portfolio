@@ -8,8 +8,8 @@ import Header from './Header.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header></Header>
-    <App />
-    <Projects />
+      <App />
+      <Projects />
     <Tecnologies />
   </StrictMode>,
 )

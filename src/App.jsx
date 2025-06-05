@@ -1,13 +1,28 @@
 import { useState } from 'react'
 import yoxd from './img/si.jpg'
 import './App.css'
+import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
   const [count, setCount] = useState(0);
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1500, // animation duration
+      once: true,     // whether animation should happen only once
+      mirror: false,
+    });
+  }, []);
+
   return (
     <>
-      <div className='welcome' id="about">
+      <div
+        className='welcome'
+        id="about"
+        data-aos="fade-up"
+      >
         <div className='welcome-content'>
           <div className='img'>
             <img src={yoxd}></img>
@@ -30,7 +45,6 @@ function App() {
           </div>
         </div>
       </div>
- 
     </>
   )
 }
