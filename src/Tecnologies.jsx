@@ -45,6 +45,21 @@ function Tecnologies() {
                 </div>
 
                 <div className='card-box'>
+                    <div className="prueba card2" style={{ width: '400px', height: '120px', padding: '22px' }}></div>
+                    <div className="card" style={{ width: '400px', height: '120px' }}>
+                        <h3>Back-End</h3>
+                        <div className="image-grid">
+                        <div className="skill-cell"><img src={Nodejs} alt="Node.js logo" /></div>
+                        <div className="skill-cell"><img src={Php} style={{ width: '40px', height: '40px' }} alt="PHP logo" /></div>
+                        <div className="skill-cell"><img src={Java} alt="Java logo" /></div>
+                        <div className="skill-cell"><img src={Firebase} alt="Firebase logo" /></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='card-grid1' >
+                <div className='card-box'>
                     <div className="prueba card2" style={{ width: '400px', height: '200px', padding: '22px' }}></div>
                     <div className="card">
                         <h3>Others</h3>
@@ -58,21 +73,6 @@ function Tecnologies() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className='card-grid1' >
-                <div className='card-box'>
-                    <div className="prueba card2" style={{ width: '400px', height: '120px', padding: '22px' }}></div>
-                    <div className="card" style={{ width: '400px', height: '120px' }}>
-                        <h3>Back-End</h3>
-                        <div className="image-grid">
-                        <div className="skill-cell"><img src={Nodejs} alt="Node.js logo" /></div>
-                        <div className="skill-cell"><img src={Php} style={{ width: '40px', height: '40px' }} alt="PHP logo" /></div>
-                        <div className="skill-cell"><img src={Java} alt="Java logo" /></div>
-                        <div className="skill-cell"><img src={Firebase} alt="Firebase logo" /></div>
-                        </div>
-                    </div>
-                </div>
-
                 <div className='card-box'>
                     <div className="prueba card2" style={{ width: '400px', height: '120px', padding: '22px' }}></div>
                     <div className="card" style={{ width: '400px', height: '120px' }}>

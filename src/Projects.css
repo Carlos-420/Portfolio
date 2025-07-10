@@ -23,7 +23,8 @@
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     margin: 20px;
     border-radius: 20px;
-    background-color: #040644;
+    background: linear-gradient(135deg, #040644 65%, #1e1e2a);
+
     width: 550px;
     padding: 20px;
     height: 500px;
@@ -38,7 +39,7 @@
     padding-bottom: 5px;
     font-size: 25px;
     color: #8B5A2B; 
-    border-bottom: 1px solid white; /* blue line */
+    border-bottom: 1px solid white; 
 }
 
 .swiper {

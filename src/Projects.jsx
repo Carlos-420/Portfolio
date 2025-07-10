@@ -49,7 +49,7 @@ function Projects() {
                   <SwiperSlide><img src={Jj4}/></SwiperSlide>
                 </Swiper>
                 <h3>Sitio Web SOLUCIONES J&J</h3>
-                <p style={{color: 'rgb(175, 175, 175)', fontSize: '20px', marginTop: '-15px'}}>An e-commerce for a importer business of industrial equipment. </p>
+                <p style={{color: '#bdbdbd', fontSize: '20px', marginTop: '-15px'}}>E-commerce website for an import business of industrial equipment.</p>
                 <br></br>
                 <div style={{marginTop: '-15px'}}>
                   <img src={Html5} style={{width: '35px', height: '35px', margin: '5px'}}/>
@@ -72,7 +72,7 @@ function Projects() {
                   <SwiperSlide><img src={Web4}/></SwiperSlide>
                 </Swiper>
                 <h3>Big Social Network</h3>
-                <p style={{color: 'rgb(175, 175, 175)', fontSize: '20px', marginTop: '-15px', fontFamily: ''}}>A social network in progress that allows user to share posts with tags related, Like or dislike posts and edit their profile.</p>
+                <p style={{color: '#bdbdbd', fontSize: '20px', marginTop: '-15px', fontFamily: ''}}>A social network in process that allows user to share posts with tags related, Like or dislike posts and edit their profile.</p>
                 <br></br>
                 <div style={{marginTop: '-15px'}}>
                   <img src={ReactLogo} style={{width: '35px', height: '35px', margin: '5px'}}/>

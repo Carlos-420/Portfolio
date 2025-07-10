@@ -4,8 +4,13 @@ html{
 }
 
 body{
-background: #051073;
-background: linear-gradient(190deg, rgba(5, 16, 115, 1) 33%, rgba(5, 5, 74, 1) 58%, rgba(0, 0, 0, 1) 100%);
+  background: linear-gradient(
+  to bottom,
+  #000 0%,      /* elegant dark graphite gray */
+  #040644 55%,     /* deep navy / midnight blue */
+  #0d004c 70%,     /* rich indigo */
+  #06014f 100%     /* vibrant violet-blue */
+);
 }
 
 @font-face {
@@ -15,15 +20,16 @@ background: linear-gradient(190deg, rgba(5, 16, 115, 1) 33%, rgba(5, 5, 74, 1) 5
 
 .welcome{
   display: flex;
-  margin-top: 90px;
+  margin-top: 110px;
   justify-content: center;
   align-items: center;
+
 }
 
 .welcome-content{
   position: relative;
   display: flex;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Segoe UI', sans-serif !important;
   align-items: center;
   justify-content: center;
   line-height: 1.5;
@@ -68,7 +74,6 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 36px !important;
-  border-radius: 20px;
   color: rgb(7, 212, 7);
   width: 150px;
   background: #241d1d;
@@ -151,21 +156,24 @@ h3{
 }
 
 .welcome-content .img img{
-  width: 340px; 
-  height: 340px;
-  border-radius: 50%;
-  box-shadow: 0 0 10px 1px rgba(255, 255, 255, 0.658);
-  transform: rotate(0deg); /* Initial state */
-  transform: rotateY(-15deg); /* Puedes probar también rotateX o rotate3d */
-  transition: box-shadow 1s ease, transform 0.3s ease, width 0.3s ease, height 0.3s ease;
+  width: 500px; 
+  height: 500px;
+   -webkit-mask-image: radial-gradient(circle at center, 
+    #040648 45%, 
+    rgba(0, 0, 0, 0) 65%);
+  mask-image: radial-gradient(circle at center, 
+    #040648 45%, 
+    rgba(0, 0, 0, 0) 65%);
+border: 20px solid rgba(0, 0, 0, 0.9);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat:round;
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  transition: box-shadow 0.6s ease, transform 0.9s ease, width 0.3s ease, height 0.3s ease;
 }
 
 .welcome-content .img img:hover{
-  width: 360px; 
-  height: 360px;
-  box-shadow: 0 0 20px 3px #8f3e1ea6;
-  transform: rotate(5deg) !important; /* Initial state */
-  transform: rotateY(20deg); /* Puedes probar también rotateX o rotate3d */
+  transform: rotateY(10deg); 
   
 }
 
@@ -178,7 +186,7 @@ h3{
   margin-top: -15px;
   width: 600px;
   font-size: 20px;
-  color: #F1F1F1;
+  color: #e2e2e2;  
 }
 
 @media (max-width: 1260px){
@@ -192,6 +200,9 @@ h3{
     flex-direction: column !important;
   }
   .card-grid1{
+    flex-direction: column !important;
+  }
+  .card-grid{
     flex-direction: column !important;
   }
   .tecnologies-div{
@@ -244,12 +255,8 @@ h3{
     gap: 2px;
   }
   .welcome-content img{
-    width: 270px;
-    height: 270px;
-  }
-  .welcome-content img:hover{
-    width: 280px;
-    height: 280px;
+    width: 320px !important;
+    height: 320px !important;
   }
 }
 

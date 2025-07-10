@@ -15,20 +15,21 @@
 
 .card-grid{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 50px;
 }
 
 .card-grid1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .card {
     width: 400px;
     border-radius: 20px;
     height: 200px;  
     padding: 20px;
-    background-color: #040644;
+    background: linear-gradient(135deg, #040644 65%, #1e1e2a);
+
     margin: 20px;
     color: white;
     justify-content: center;
@@ -103,12 +104,12 @@
     height: 35px;
     cursor: pointer;
     object-fit: contain;
-    transform: rotate(0deg); /* Initial state */
-    transition: transform 1s ease; /* Smooth rotation */
+    transform: rotate(0deg);
+    transition: transform 1s ease; 
 }
 
 .image-grid .skill-cell img:hover {
-    transform: rotate(360deg); /* Full spin on hover */
+    transform: rotate(360deg); 
 }
 
  
